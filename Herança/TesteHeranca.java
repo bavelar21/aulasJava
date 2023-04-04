@@ -17,8 +17,25 @@ public class TesteHeranca {
 		
 		System.out.println("Aluno \n" + a1.toString());
 		
-		Professor pp1 = new Professor();
-		pp1.setNome("Adalberto");
+		Professor prof = new Professor();
+		prof.setNome("Alex");
+		prof.setCpf("735.459.452-89");
+		prof.setSexo('M');
+		prof.setDepartamento("Exatas");
+		prof.setAnoAdmissao(2019);
+		
+		System.out.println("Professor \n" + prof.toString());
+		
+		ProfessorDoutor prod = new ProfessorDoutor();
+		prod.setNome("Junior");
+		prod.setCpf("135.959.352-12");
+		prod.setSexo('M');
+		prod.setDepartamento("Exatas");
+		prod.setAnoAdmissao(2019);
+		prod.setInstituicaoDoutorado("Positivo");
+		prod.setObtencaoTitulo("Mestrado");
+		
+		System.out.println("Professor Doutor \n" + prod.toString());
 	}
 
 }
