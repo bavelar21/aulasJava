@@ -1,4 +1,3 @@
-
 public class Professor extends Pessoa {
 	private String departamento;
 	private int anoAdmissao;
@@ -28,7 +27,7 @@ public Professor() {
 	}
 	
 	public String toString() {
-		String str = "Departamento: " + departamento + "\n" +
+		String str = super.toString() + "Departamento: " + departamento + "\n" +
 					 "Ano de admissão: " + anoAdmissao + "\n";
 		return str;
 	}
