@@ -1,0 +1,10 @@
+Bruno Elias Avelar
+Sistema de gerenciamento de um restaurante
+Classe prato - atributos : nome, descrição e preço de cada prato.
+Classe mesa - representa as mesas do restaurante e contem numero da mesa e capacidade de pedidos feitos na mesa.
+Classe restaurante - gerencia e implementa métodos como adicionar mesa, remover, registrar um pedido, calcular conta e exibir menu.
+
+O tratamento de exceções irão evitar as situação em que uma mesa possa ser duplicada ou a remoção de uma mesa inexistente.
+A classe prato será uma classe abstrata que define o método "calcPreco()" a ser implementado pelas subclasses.
+A classe restaurante fará o uso de herança e polimorfismo para tratar diferentes tipos de pratos como sobremesas, bebidas, acompanhamentos e pratos principais,
+que herdam da classe prato.
